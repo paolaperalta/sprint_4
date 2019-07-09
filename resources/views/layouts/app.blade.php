@@ -46,7 +46,7 @@
                       </li>
 
                       <li class="nav-item">
-                        <a class="nav-link" href="index.php">Macetas</a>
+                        <a class="nav-link" href="/macetas">Macetas</a>
                       </li>
 
                       <li class="nav-item">
@@ -110,6 +110,41 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        <footer>
+          <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="socials-a">
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <a href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="copyright-footer">
+                      <p class="copyright color-text-a">
+                        &copy; Copyright
+                        <span class="color-a">Gardenia</span> Todos los derechos reservados.
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+        </footer>
     </div>
 
     <script src="{{ asset('js/jquery.min.js') }}"></script>
